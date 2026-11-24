@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Day List — Privacy Policy</title>
+  <script>
+    (function () {
+      var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var lang = String(langs[0]).toLowerCase().startsWith('ro') ? 'ro' : 'en';
+      location.replace('privacy-policy-' + lang + '.html' + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=privacy-policy-en.html" /></noscript>
+  <style>
+    :root { --text: #1a1a1a; --muted: #666; --bg: #ffffff; --link: #6366F1; }
+    @media (prefers-color-scheme: dark) {
+      :root { --text: #e6e6ef; --muted: #9b9bb0; --bg: #0F0F1A; --link: #A5A8FF; }
+    }
+    body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+           max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.6;
+           color: var(--text); background: var(--bg); }
+    h1 { font-size: 1.9rem; margin-bottom: 0.2em; }
+    h2 { font-size: 1.25rem; margin-top: 1.8em; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    a { color: var(--link); }
+  </style>
+</head>
+<body>
+  <h1>Day List</h1>
+  <ul>
+    <li><a href="privacy-policy-en.html">Privacy Policy</a> · <a href="terms-of-service-en.html">Terms of Use</a></li>
+    <li><a href="privacy-policy-ro.html">Politica de confidențialitate</a> · <a href="terms-of-service-ro.html">Termeni de utilizare</a></li>
+  </ul>
+</body>
+</html>
